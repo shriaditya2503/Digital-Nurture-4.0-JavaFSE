@@ -1,0 +1,3 @@
+2025-06-30 00:59:28 INFO  AppenderExample - This message should go to both console and file
+2025-06-30 00:59:28 WARN  AppenderExample - Warning logged to both outputs
+2025-06-30 00:59:28 ERROR AppenderExample - An error occurred
