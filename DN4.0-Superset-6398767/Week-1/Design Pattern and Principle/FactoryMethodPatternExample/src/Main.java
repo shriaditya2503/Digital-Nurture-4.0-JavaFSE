@@ -13,6 +13,5 @@ public class Main {
         DocumentFactory excelFactory = new ExcelDocumentFactory();
         Document excel = excelFactory.createDocument();
         excel.open();
-
     }
 }

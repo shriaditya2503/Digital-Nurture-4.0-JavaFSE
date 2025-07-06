@@ -6,6 +6,7 @@ public class WebApp implements Observer {
     public WebApp(String name) {
         this.name = name;
     }
+
     @Override
     public void update(double stockPrice) {
         System.out.println("Web App " + name + " received update: Stock price is Rs." + stockPrice);

@@ -10,11 +10,9 @@ public class ProxyImage implements Image {
 
     @Override
     public void display() {
-        if(realImage == null)
-            realImage = new RealImage(fileName);
+        if(realImage == null) realImage = new RealImage(fileName);
 
-        else
-            System.out.println(fileName + " loaded from cache");
+        else System.out.println(fileName + " loaded from cache");
 
         realImage.display();
     }
